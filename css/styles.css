@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 *{
     box-sizing: border-box;
-    font-family: 'Prata', serif;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 100;
     margin: 0;
     padding: 0;
 }
@@ -15,7 +15,7 @@ html {
 /* MENU */
 
 .contenedor-header {
-    background: linear-gradient(135deg, #ffe5b4, #fddede);
+    background-color: #f7e1d6;
     position: fixed;
     width: 100%;
     top: 0;
@@ -33,12 +33,9 @@ html {
 }
 
 .contenedor-header header .logo a {
-    font-family: 'Righteous';
+    font-family: 'Chewy', cursive;
     font-size: 36px;
-    color: #333;
-    background: linear-gradient(135deg, #8383f0, #f7c5c5); /* Lavanda a rosa */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #472950;
     text-decoration: none;
 }
 
@@ -48,17 +45,16 @@ html {
 }
 
 .contenedor-header header nav ul li a {
+    font-family: 'Chewy', cursive;
     text-align: none;
-    color: #71bdd6;
+    color: #472950;
     margin: 0 15px;
     padding: 3px;
-    transition: .5s;
     text-decoration: none;
-    text-shadow:  0px 0px 1px rgb(171, 247, 205);
 }
 
 .contenedor-header header nav ul li a:hover {
-    color: #ff7f50;
+    color: #d292e6; 
 }
 
 .nav-responsive {
@@ -74,11 +70,10 @@ html {
 /* SECCION INICIO */
 
 .inicio {
-    background: linear-gradient(135deg, #fddede, #b4f8c8, #ffe5b4),
+    background-color: #4e3953;
     url(img/fondo.jpg);
     background-size: cover;
     height: 120vh;
-    color: #fff;
     display: flex;
     align-items: center;
     padding-top: 40px;
@@ -86,7 +81,7 @@ html {
 
 .inicio .contenido-banner {
     padding: 20px;
-    background: linear-gradient(135deg, #ffe5b4, #fddedede);
+    background-color: #f7e1d6;
     max-width: 350px;
     margin: auto;
     text-align: center;
@@ -102,27 +97,26 @@ html {
 }
 
 .inicio .contenido-banner h1 {
-    background: linear-gradient(135deg, #8383f0, #f7c5c5); /* Lavanda a rosa */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #472950;
     margin-top: 20px;
     font-size: 42px;
-    font-family: 'Righteous';
+    font-family: 'Chewy', cursive;
     margin-bottom: 20px;
 }
 
 .inicio .contenido-banner h2 {
+    font-family: 'Nanum Myeongjo', serif;
     font-size: 15px;
-    font-weight: normal;
-    color: #666;
+    font-weight: 100;
+    color: #2b2a2a;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .inicio .contenido-banner .redes a {
-    color: #71bdd6; 
+    color: #472950; 
     display: inline-block;
     text-decoration: none;
-    border: 1px solid #71bdd6;
+    border: 1px solid #472950;
     border-radius: 100%;
     width: 42px;
     height: 42px;
@@ -133,9 +127,7 @@ html {
 }
 
 .inicio .contenido-banner .redes a:hover {
-    background: linear-gradient(135deg, #8383f0, #f7c5c5); /* Lavanda a rosa */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #d292e6;
 }
 
 
@@ -143,16 +135,17 @@ html {
 /* SOBRE MÍ */
 
 .sobremi {
-    background: linear-gradient(135deg, #fddede, #b4f8c8, #ffe5b4);
-    color: #333;
+    background-color: #4e3953;
     padding: 50px 20px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 100;
 }
 
 .sobremi .contenido-seccion {
     max-width: 1100px;
     margin: auto;
     padding: 20px;
-    background: linear-gradient(135deg, #ffe5b4, #fddedede);
+    background-color: #f7e1d6;
     border-radius: 12px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -161,21 +154,15 @@ html {
     text-align: center;
     font-size: 36px;
     margin-bottom: 20px;
-    background: linear-gradient(135deg, #8383f0, #f7c5c5);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #472950;
+    font-family: 'Chewy', cursive;
 }
 
 .sobremi .contenido-seccion p {
     font: 18px;
     line-height: 22px;
     margin-bottom: 20px;
-    color: #666;
-}
-
-.sobremi .contenido-seccion p span {
-    font-weight: bold;
-    color: #ff7f50;
+    color: #2b2a2a;
 }
 
 .sobremi .fila {
@@ -190,7 +177,7 @@ html {
     font-family: 'Prata', serif;
     font-size: 24px;
     margin-bottom: 25px;
-    color: #333;
+    color: #2b2a2a;
     text-align: left;
     margin-top: 30px;
 }
@@ -206,15 +193,13 @@ html {
 
 .sobremi .fila .col ul li strong {
     display: inline-block;
-    color: #ff7f50;
+    color: #472950;
+    font-weight: bold;
     width: 130px;
 }
 
 .sobremi .fila .col ul li span {
-    background-color: #8383f052;
-    padding: 3px;
-    font-weight: bold;
-    border-radius: 3px;
+    font-weight: normal;
 }
 
 .sobremi .fila .col .contenedor-intereses {
@@ -225,7 +210,7 @@ html {
 .sobremi .fila .col .contenedor-intereses .interes {
     width: 100px;
     height: 100px;
-    background-color: #8383f052;
+    background-color: #4e39534d;
     border-radius: 10px;
     margin: 0 15px 15px 15px;
     display: flex;
@@ -242,36 +227,7 @@ html {
 .sobremi .fila .col .contenedor-intereses .interes i {
     font-size: 30px;
     margin-bottom: 10px;
-    color: #8383f0bb;
-}
-
-.sobremi button {
-    cursor: pointer;
-    background-color: transparent;
-    border: 2px solid #ff7f50;
-    width: fit-content;
-    display: block;
-    margin: 20px auto;
-    padding: 10px 22px;
-    font-size: 16px;
-    color: #ff7f50;
-    position: relative;
-    z-index: 10;
-}
-
-.sobremi button .overlay { 
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background: rgba(230, 130, 64, 0.2);
-    z-index: -1;
-    transition: 1s;
-}
-
-.sobremi button:hover .overlay {
-    width: 100%;
+    color: #4e3953;
 }
 
 
@@ -279,28 +235,26 @@ html {
 /* SECCION SKILLS */
 
 .skills {
-    background: linear-gradient(135deg, #b4f8c8, #ffe5b4);
-    color: #333;
+    background-color: #4e3953;
     padding: 50px 20px;
+    font-family: 'Nanum Myeongjo', serif;
 }
 
 .skills .contenido-seccion {
     max-width: 1100px;
     margin: auto;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.8);
+    background-color: #f7e1d6;
     border-radius: 12px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .skills h2 {
+    font-family: 'Chewy', cursive;
     font-size: 48px;
-    font-family: 'Righteous';
     text-align: center;
     padding: 20px 0;
-    background: linear-gradient(135deg, #8383f0, #f7c5c5);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #472950;
     margin-bottom: 20px;
 }
 
@@ -314,108 +268,15 @@ html {
 }
 
 .skills .fila .col h3 {
-    font-family: 'Prata', serif;
     font-size: 24px;
     margin-bottom: 20px;
-    color: #333;
 }
 
-.skills .skill > span {
-    font-weight: bold;
-    display: block;
-    margin-bottom: 10px;
-    color: #555;
-}
-
-.skills .skill .barra-skill {
-    height: 8px;
-    width: 80%;
-    background: #e4dede;
-    border-radius: 10px;
-    position: relative;
-    margin-bottom: 30px;
-}
-
-.skills .skill .progreso {
-    background: linear-gradient(135deg, #8383f0, #ff7f50);
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 8px;
-    border-radius: 10px;
-}
-
-.skills .skill .barra-skill span {
-    position: absolute;
-    height: 40px;
-    width: 40px;
-    background-color: #ffa381fa;
-    color: white;
-    border-radius: 50px;
-    line-height: 40px;
-    text-align: center;
-    top: -17px;
-    right: -15px;
-    font-size: 14px;
-}
-
-/* Estas clases se agregaran dinamicamente mediante javascript */
-
-.skills .skill .canva {
-    width: 0%;
-    animation: 2s canva forwards;
-}
-
-@keyframes canva {
-    0%{width: 0%;}
-    100%{width: 99%;}
-}
-
-.skills .skill .htmlcss {
-    width: 0%;
-    animation: 2s htmlcss forwards;
-}
-
-@keyframes htmlcss {
-    0%{width: 0%;}
-    100%{width: 89%;}
-}
-
-.skills .skill .photoshop {
-    width: 0%; 
-    animation: 2s photoshop forwards;
-}
-
-@keyframes photoshop {
-    0%{width: 0%;}
-    100%{width: 95%;}
-}
-
-.skills .skill .wordpress {
-    width: 0%;
-    animation: 2s wordpress forwards;
-}
-
-@keyframes wordpress {
-    0%{width: 0%;}
-    100%{width: 81%;}
-}
-
-.skills .skill .drupal {
-    width: 0%;
-    animation: 2s drupal forwards;
-}
-
-@keyframes drupal {
-    0%{width: 0%;}
-    100%{width: 55%;}
-}
 
 /* Soft Skills */
 
 .col h3 {
-    font-family: 'Prata', serif;
-    color: #333;
+    color: #2b2a2a;
     font-size: 24px;
     margin-bottom: 25px;
     text-align: center;
@@ -425,30 +286,29 @@ html {
     margin-bottom: 20px;
     padding: 15px;
     background: #fff;
-    border-left: 4px solid #8383f0;
+    border-left: 4px solid #4e3953;
     border-radius: 5px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     transition: all 0.3s ease;
 }
 
 .soft span {
-    font-family: 'Righteous', sans-serif;
     font-size: 20px;
-    color: #333;
+    color: #2b2a2a;
     display: block;
     margin-bottom: 8px;
+    font-weight: bold;
 }
 
 .soft p {
-    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    color: #666;
+    color: #464646;
     line-height: 1.6;
     margin: 0;
 }
 
 .soft:hover {
-    background-color: #f1f1f1;
+    background-color: #4e39534d;
     transform: translateY(-2px);
     transition: all 0.3s ease;
 }
@@ -457,25 +317,21 @@ html {
 /* SECCION CURRICULUM */
 
 .curriculum {
-    background: #f4f4f4;
-    color: #333;
+    background-color: #4e3953;
     padding: 50px 20px;
 }
 
 .curriculum .contenido-seccion {
-    max-width: 1100px;
-    margin: auto;   
+    max-width: 1100px;   
+    margin: auto;
 }
 
 .curriculum h2 {
-    font-family: 'Righteous', cursive;
+    font-family: 'Chewy', cursive;
     font-size: 48px;
-    font-family: 'Righteous';
     text-align: center;
     padding: 20px 0;
-    background: linear-gradient(135deg, #8383f0, #f7c5c5);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #f7e1d6;
 }
 
 .curriculum .fila {
@@ -489,35 +345,33 @@ html {
 }
 
 .curriculum .fila .col h3 {
-    font-family: 'Prata', serif;
-    font-size: 26px;
+    font-size: 28px;
     margin-bottom: 25px;
-}
-
-.curriculum .fila .izquierda {
-    border-right: 2px solid #252A2E;
+    color: #f7e1d6;
+    font-weight: 100;
+    font-family: 'Chewy', cursive;
 }
 
 .curriculum .fila .derecha {
-    border-left: 2px solid #252A2E;
+    border-left: 2px solid #f7e1d6;
 }
 
 .curriculum .fila .item {
     padding: 25px;
     margin-bottom: 30px;
-    background: linear-gradient(135deg, #ffe5b4, #fddedede);
-    border-left: 5px solid #8383f0;
+    background-color: #f7e1d6;
+    border-left: 5px solid #c37ada;
     position: relative;
 }
 
 .curriculum .fila .item h4 {
     font-size: 20px;
     margin-bottom: 10px;
-    color: #333;
+    color: #f7e1d6;
 }
 
 .curriculum .fila .item .casa {
-    color: #333;
+    color: #472950;
     font-size: 22px;
     font-weight: bold;
     display: block;
@@ -525,7 +379,7 @@ html {
 
 .curriculum .fila .item .fecha {
     display: block;
-    color: #333;
+    color: #472950;
     margin-bottom: 10px;
 }
 
@@ -533,19 +387,15 @@ html {
     line-height: 24px;
 }
 
-.curriculum .fila .izq {
-    border-right: 2px solid #ff7f50;
-    margin-right: 20px;
-}
 
 .curriculum .fila .der {
-    border-left: 2px solid #ff7f50;
+    border-left: 2px solid #c37ada;
     margin-left: 20px;
 }
 
 .curriculum .fila .item .conectori {
     height: 2px;
-    background-color: #ff7f50;
+    background-color: #c37ada;
     width: 47px;
     position: absolute;
     top: 50%;
@@ -558,7 +408,7 @@ html {
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #ff7f50;
+    background-color: #c37ada;
     float: right;
     position: relative;
     bottom: 4px;
@@ -566,7 +416,7 @@ html {
 
 .curriculum .fila .item .conectord {
     height: 2px;
-    background-color: #ff7f50;
+    background-color: #c37ada;
     width: 47px;
     position: absolute;
     top: 50%;
@@ -579,7 +429,7 @@ html {
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #ff7f50;
+    background-color: #c37ada;
     float: left;
     position: relative;
     bottom: 4px;
@@ -590,8 +440,7 @@ html {
 /* SECCION PORTFOLIO */
 
 .portfolio {
-    background: #f9f9f9;
-    padding: 50px 20px;
+    background-color: #4e3953;
 }
 
 .portfolio .contenido-seccion {
@@ -601,12 +450,10 @@ html {
 
 .portfolio h2 {
     font-size: 48px;
-    font-family: 'Righteous';
+    font-family: 'Chewy', cursive;
     text-align: center;
     padding: 20px 0;
-    background: linear-gradient(135deg, #8383f0, #f7c5c5);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #f7e1d6;
     margin-bottom: 40px;
 }
 
@@ -635,7 +482,7 @@ html {
     width: 100%;
     height: 100%;
     text-align: center;
-    background: linear-gradient(rgba(177, 69, 240, 0.8), rgba(245, 245, 220, 0.8));
+    background: linear-gradient(rgba(116, 46, 156, 0.8), rgba(245, 245, 220, 0.8));
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -663,8 +510,8 @@ html {
 /* SECCION CONTACTO */
 
 .contacto {
-    background-color: #F5F5DC;
-    color: #333;
+    background-color: #f7e1d6;
+    color: #2b2a2a;
     padding: 50px 0;
 }
 
@@ -681,12 +528,10 @@ html {
 
 .contacto h2 {
     font-size: 48px;
-    font-family: 'Righteous';
+    font-family: 'Chewy', cursive;
     text-align: center;
     padding: 20px 0;
-    background: linear-gradient(135deg, #8383f0, #f7c5c5);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #472950;
 }
 
 .item-contacto {
@@ -695,7 +540,7 @@ html {
 
 .contact-link {
     text-decoration: none; 
-    color: #333; 
+    color: #472950; 
     font-size: 20px;
     display: flex;
     align-items: center; 
@@ -706,19 +551,19 @@ html {
 }
 
 .contact-link:hover {
-    color: #8383f0; 
+    color: #d292e6; 
 }
 
 
 /* FOOTER */
 
 footer {
-    background-color: #f5f5f5;
-    color: #333;
+    background-color: #4e3953;
+    color: #f7e1d6;
     padding: 40px 0;
     position: relative;
     width: 100%;
-    border-top: 2px solid #8383f0;
+    border-top: 2px solid #d292e6;
 }
 
 footer .arriba {
@@ -728,8 +573,8 @@ footer .arriba {
     justify-content: center;
     width: 50px;
     height: 50px;
-    background-color: #ff7f50;
-    color: #fff;
+    background-color: #d292e6;
+    color: #f7e1d6;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -752,7 +597,7 @@ footer .arriba {
 .frase-inspiradora {
     font-size: 18px;
     font-family: "Oleo Script", system-ui;
-    color: #333;
+    color: #f7e1d6;
     margin-bottom: 40px;
     text-align: center; 
     padding-right: 0; 
@@ -770,7 +615,7 @@ footer .arriba {
 }
 
 footer p {
-    color: #777;
+    color: #f7e1d6;
     font-size: 14px;
     text-align: center;
     margin-top: 20px;
