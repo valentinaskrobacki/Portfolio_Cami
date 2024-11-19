@@ -278,6 +278,7 @@ html {
 .col h3 {
     color: #2b2a2a;
     font-size: 24px;
+    font-weight: bold;
     margin-bottom: 25px;
     text-align: center;
 }
@@ -285,7 +286,7 @@ html {
 .soft {
     margin-bottom: 20px;
     padding: 15px;
-    background: #fff;
+    background: #4e395328;
     border-left: 4px solid #4e3953;
     border-radius: 5px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
