@@ -15,7 +15,7 @@ html {
 /* MENU */
 
 .contenedor-header {
-    background-color: #f7e1d6;
+    background-color: #fff;
     position: fixed;
     width: 100%;
     top: 0;
@@ -81,7 +81,7 @@ html {
 
 .inicio .contenido-banner {
     padding: 20px;
-    background-color: #f7e1d6;
+    background-color: #fff;
     max-width: 350px;
     margin: auto;
     text-align: center;
@@ -145,7 +145,7 @@ html {
     max-width: 1100px;
     margin: auto;
     padding: 20px;
-    background-color: #f7e1d6;
+    background-color: #fff;
     border-radius: 12px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -244,7 +244,7 @@ html {
     max-width: 1100px;
     margin: auto;
     padding: 20px;
-    background-color: #f7e1d6;
+    background-color: #fff;
     border-radius: 12px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -331,7 +331,7 @@ html {
     font-size: 48px;
     text-align: center;
     padding: 20px 0;
-    color: #f7e1d6;
+    color: #fff;
 }
 
 .curriculum .fila {
@@ -347,33 +347,33 @@ html {
 .curriculum .fila .col h3 {
     font-size: 28px;
     margin-bottom: 25px;
-    color: #f7e1d6;
+    color: #fff;
     font-weight: 100;
     font-family: 'Chewy', cursive;
 }
 
 .curriculum .fila .derecha {
-    border-left: 2px solid #f7e1d6;
+    border-left: 2px solid #fff;
 }
 
 .curriculum .fila .item {
     padding: 25px;
     margin-bottom: 30px;
-    background-color: #f7e1d6;
+    background-color: #fff;
     border-left: 5px solid #c37ada;
     position: relative;
 }
 
 .curriculum .fila .item h4 {
-    font-size: 20px;
+    font-size: 28px;
     margin-bottom: 10px;
-    color: #f7e1d6;
+    color: #472950;
+    font-weight: bold;
 }
 
 .curriculum .fila .item .casa {
     color: #472950;
     font-size: 22px;
-    font-weight: bold;
     display: block;
 }
 
@@ -453,7 +453,7 @@ html {
     font-family: 'Chewy', cursive;
     text-align: center;
     padding: 20px 0;
-    color: #f7e1d6;
+    color: #fff;
     margin-bottom: 40px;
 }
 
@@ -510,7 +510,7 @@ html {
 /* SECCION CONTACTO */
 
 .contacto {
-    background-color: #f7e1d6;
+    background-color: #fff;
     color: #2b2a2a;
     padding: 50px 0;
 }
@@ -559,7 +559,7 @@ html {
 
 footer {
     background-color: #4e3953;
-    color: #f7e1d6;
+    color: #fff;
     padding: 40px 0;
     position: relative;
     width: 100%;
@@ -574,7 +574,7 @@ footer .arriba {
     width: 50px;
     height: 50px;
     background-color: #d292e6;
-    color: #f7e1d6;
+    color: #fff;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -597,7 +597,7 @@ footer .arriba {
 .frase-inspiradora {
     font-size: 18px;
     font-family: "Oleo Script", system-ui;
-    color: #f7e1d6;
+    color: #fff;
     margin-bottom: 40px;
     text-align: center; 
     padding-right: 0; 
@@ -615,7 +615,7 @@ footer .arriba {
 }
 
 footer p {
-    color: #f7e1d6;
+    color: #fff;
     font-size: 14px;
     text-align: center;
     margin-top: 20px;
